@@ -8,9 +8,9 @@ getSomething(()=>{
     })*/
 
 /*Higher order function(HOF)
-foreach 
-map 
-reduce
+foreach = loop ko lagi matra ho 
+map = looping tara esma hami le data manipulate pani garnu milcha. orginal arry lai modify gardeina naya array banyera garcha 
+reduce=
 filter {array ko lagi matra kam garcha sabei hof le}*/
 
 //const fruits = ['mango', 'banana', 'apple']
@@ -36,3 +36,41 @@ filter {array ko lagi matra kam garcha sabei hof le}*/
 // })
 // console.log(sqnum)
 
+// const data = [
+//     {
+//         firstname: "Prashant",
+//         lastname: "Shakya"
+//     },
+//     {
+//         firstname: "Namxang",
+//         lastname: "Rai"
+//     },
+//     {
+//         firstname: "Winner",
+//         lastname: "Puma"
+//     }
+// ]
+
+// data.forEach(function (add) {
+//     console.log(add.firstname + ' ' + add.lastname)
+// })
+
+// data.forEach((add) => {
+//     console.log(add.firstname + ' ' + add.lastname)
+// })
+
+
+// const num2 = [2, 4, 6, 8]
+// const squared = num2.map((num) => {
+//     return num ** 2
+// })
+// console.log(squared)
+
+
+// const result = data.map((obj) => {
+//     return {
+//         fullname: obj.firstname + ' ' + obj.lastname
+//     }
+// })
+
+// console.log(result)
