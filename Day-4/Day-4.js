@@ -11,7 +11,8 @@ getSomething(()=>{
 foreach = loop ko lagi matra ho 
 map = looping tara esma hami le data manipulate pani garnu milcha. orginal arry lai modify gardeina naya array banyera garcha 
 reduce=
-filter {array ko lagi matra kam garcha sabei hof le}*/
+filter= yo hof le chai data search garda required data lai filter sajilo banaucha 
+{array ko lagi matra kam garcha sabei hof le}*/
 
 //const fruits = ['mango', 'banana', 'apple']
 
