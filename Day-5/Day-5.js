@@ -30,3 +30,28 @@
 //     return add.price * add.qty + acc
 // }, 0)
 // console.log(cart)
+
+// const cart = products.reduce((acc, add) => {
+//     acc.Total = add.price * add.qty + acc.Total
+//     acc.quantity = add.qty + acc.quantity
+//     return acc
+// }, { Total: 0, quantity: 0 })
+// console.log(cart)
+
+const reviews = [
+    {
+        Raiting: 2
+    }, {
+        Raiting: 5
+    }, {
+        Raiting: 6
+    }
+]
+function revv(reviews) {
+    const totalRating = reviews.reduce((acc, avg) => {
+        return avg.Raiting + acc
+    }, 0)
+    const av = totalRating / reviews.length
+    console.log(av)
+}
+revv(reviews)
