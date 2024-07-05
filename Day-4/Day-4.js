@@ -163,46 +163,46 @@ const data = [
 // })
 // console.log(output)
 
-const datas = [
-    {
-        name: "Manish",
-        marks: 800,
-        status: "pass"
-    },
-    {
-        name: "Anish",
-        marks: 500,
-        status: "fail"
-    },
-    {
-        name: "Pranjal",
-        marks: 900,
-        status: "pass"
-    },
-    {
-        name: "Bob",
-        marks: 100,
-        status: "fail"
-    },
-    {
-        name: "Hari",
-        marks: 550,
-        status: "fail"
-    },
-    {
-        name: "Shyam",
-        marks: 600,
-        status: "pass"
-    },
-    {
-        name: "Laxman",
-        marks: 300,
-        status: "fail"
-    }
-]
+// const datas = [
+//     {
+//         name: "Manish",
+//         marks: 800,
+//         status: "pass"
+//     },
+//     {
+//         name: "Anish",
+//         marks: 500,
+//         status: "fail"
+//     },
+//     {
+//         name: "Pranjal",
+//         marks: 900,
+//         status: "pass"
+//     },
+//     {
+//         name: "Bob",
+//         marks: 100,
+//         status: "fail"
+//     },
+//     {
+//         name: "Hari",
+//         marks: 550,
+//         status: "fail"
+//     },
+//     {
+//         name: "Shyam",
+//         marks: 600,
+//         status: "pass"
+//     },
+//     {
+//         name: "Laxman",
+//         marks: 300,
+//         status: "fail"
+//     }
+// ]
 
-const db = datas.filter((obj) => {
-    return obj.name.endsWith("sh") && obj.status == "pass" && obj.marks > 500
-})
+// const db = datas.filter((obj) => {
+//     return obj.name.endsWith("sh") && obj.status == "pass" && obj.marks > 500
+// })
 
-console.log(db)
+// console.log(db)
