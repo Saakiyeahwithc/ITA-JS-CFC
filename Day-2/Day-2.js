@@ -31,7 +31,7 @@
 const splitteddata = text.split(" ")
 console.log(splitteddata)*/
 
-
+//kunei pani pre defined array ma insert garnu mildeina tyo bahek aru changes garnu chai milcha  
 //const lang = ['js', 'php', 'c']
 //lang[1]=html
 //lang.splice(0,1,'html')
@@ -63,10 +63,13 @@ console.log(splitteddata)*/
 // }
 // ]
 //datas.name.push('Sanjeev')
-// datas.push({name:'sanjeev'})
-// datas.unshift({name:'sanjeev'})
+//datas.push({name:'sanjeev'})
+
+//datas.unshift({name:'sanjeev'})
+
+
 //console.log(datas)
-// const test2 = {
+//const test2 = {
 //     name: ["Prashant", "Sanjeev", "namxang"]
 // }
 
