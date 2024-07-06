@@ -38,20 +38,20 @@
 // }, { Total: 0, quantity: 0 })
 // console.log(cart)
 
-const reviews = [
-    {
-        Raiting: 2
-    }, {
-        Raiting: 5
-    }, {
-        Raiting: 6
-    }
-]
-function revv(reviews) {
-    const totalRating = reviews.reduce((acc, avg) => {
-        return avg.Raiting + acc
-    }, 0)
-    const av = totalRating / reviews.length
-    console.log(av)
-}
-revv(reviews)
+// const reviews = [
+//     {
+//         Rating: 2
+//     }, {
+//         Rating: 5
+//     }, {
+//         Rating: 6
+//     }
+// ]
+// function revv(reviews) {
+//     const totalRating = reviews.reduce((acc, avg) => {
+//         return avg.Rating + acc
+//     }, 0)
+//     const av = totalRating / reviews.length
+//     console.log(av)
+// }
+// revv(reviews)
