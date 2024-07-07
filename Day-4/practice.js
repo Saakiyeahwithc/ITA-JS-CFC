@@ -161,25 +161,30 @@
 // Write a function countOccurrences that takes an array of strings and returns an object where the keys are the strings and the values are the number of times each string appears in the array.Test countOccurrences with ['apple', 'banana', 'apple', 'orange', 'banana', 'apple'].
 
 
-const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+// const fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
 
-function countOccurrences(fruits) {
-    return fruits.reduce((acc, str) => {
-        acc[str] = (acc[str] || 0) + 1
-        return acc
-    }, {})
-}
+// function countOccurrences(fruits) {
+//     return fruits.reduce((acc, str) => {
+//         acc[str] = (acc[str] || 0) + 1
+//         return acc
+//     }, {})
+// }
 
-const output = countOccurrences(fruits)
-console.log(output)
+// const output = countOccurrences(fruits)
+// console.log(output)
 
 
 //Combined usage of Map(), Filter(),Reduce()
 // Calculate Total Sales:
 // Write a function totalSales that takes an array of objects with properties product and amount and returns the total amount.Test totalSales with [{product: 'A', amount: 30}, {product: 'B', amount: 20}, {product: 'A', amount: 50}].
 
+const sales = [{ product: 'A', amount: 30 }, { product: 'B', amount: 20 }, { product: 'A', amount: 50 }]
 
+function totalSales(sales) {
+    return sales.reduce((acc, pro) => {
 
+    }, 0)
+}
 
 
 
